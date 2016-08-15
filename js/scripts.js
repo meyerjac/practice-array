@@ -11,7 +11,13 @@ $(document).ready(function() {
 
 var response = [fruit, actor, animal, drink]
 
-console.log(response)
+var response1 = (response[1])
+var response2 = (response[0])
+var response3 = (response[2])
+var final = [response1, response2, response3]
+
+// .result function(append (<li> + final + </li>));
+
 
 event.preventDefault();
 
